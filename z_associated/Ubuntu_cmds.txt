@@ -1,230 +1,34 @@
-Commands used to build Ubuntu instance. There are lots of other commands in here, but if you need to build your own instances, the main installs show be here:
+Commands used to build Ubuntu instance on VirtualBox. There are lots of other commands in here, but if you need to build your own instances, the main installs show be here:
 
 1. Node.js
 2. Hashcat
 3. Python libs
 
-    1  cd Desktop/vmware-tools-distrib/
-    2  sudo ./vmware-install.pl -d
-    3  cd //
-    4  sudo apt-get install open-vm-tools
-    5  sudo apt-get install open-vm-tools-desktop
-    6  python
-    7  node
-    8  sudo apt install nodejs-legacy
-    9  node
-   10  ls
-   11  ls -al
-   12  python
-   13  mkdir esecurity
-   14  cd esecurity/
+
    15  git clone https://github.com/billbuchanan/esecurity
    16  sudo apt install git
    17  git clone https://github.com/billbuchanan/esecurity
-   18  ls -al
-   19  cd esecurity/
-   20  ls
-   21  cd unit01
-   22  ls 
-   23  python a_06.py 
-   24  python a_07.py 
-   25  python a_08.py 
-   26  python a_09.py 
-   27  cat 09.py
-   28  cat a_09.py
-   29  cd ..
-   30  git clone https://github.com/billbuchanan/esecurity
-   31  rm -r esecurity/
-   32  rm -r .git
-   33  ls -al
-   34  rm -r esecurity/
-   35  cd esecurity/
-   36  rm -r .git/
-   37  rm -r .git/ -y
-   38  rm -ry .git/ 
-   39  cd ..
-   40  rm -rf esecurity/
-   41  ls
-   42  cd ..
-   43  rm -rf esecurity/
-   44  ls
-   45  git clone https://github.com/billbuchanan/esecurity
-   46  cd esecurity/
-   47  ls
-   48  cd unit01
-   49  ls
-   50  python a_09.py 
-   51  cd ..
-   52  git clone https://github.com/billbuchanan/esecurity
-   53  rm -rf esecurity/
-   54  git clone https://github.com/billbuchanan/esecurity
-   55  cd esecurity/
-   56  ls
-   57  cd unit01
-   58  ls
-   59  python a_09.py 
-   60  python b_01.py 
-   61  python c_01.py 
-   62  ls
-   63  python *.py
-   64  python d_01.py
-   65  python d_01.py 10
-   66  python d_02.py
-   67  python d_04.py
-   68  cd ..
-   69  cd unit02
-   70  ls
-   71  python d_01.py
-   72  pip install passlib
    73  sudo apt install python-pip
    74  pip install passlib
-   75  python d_01.py
-   76  ls
-   77  python e_01.py 
-   78  python f_01.py 
-   79  python h_01.py
+ 
    80  pip install bcrypt
-   81  python h_01.py
-   82  cd ..
-   83  cd unit01
-   84  ls
-   85  node a_08.js
-   86  cd ..
-   87  ls
-   88  cd unit03
-   89  ls
-   90  python d_01.py
-   91  python e_01.py 
-   92  python f_01.py 
-   93  python g_01.py 
-   94  python h_01.py 
-   95  ls -al
-   96  cd ..
-   97  git pull
-   98  git clone https://github.com/billbuchanan/esecurity
-   99  rm -rf esecurity/
-  100  git clone https://github.com/billbuchanan/esecurity
-  101  nano a_01.py
-  102  python a_01.py 
-  103  nano a_01.py
-  104  python a_01.py 
-  105  nano a_01.py
-  106  python a_01.py 
-  107  nano a_01.py
-  108  python a_01.py 
-  109  nano a_01.py
-  110  python a_01.py 
-  111  nano a_01.py
-  112  cat a_01.py 
-  113  cd esecurity/
-  114  ls
-  115  git pull
-  116  ls
-  117  cd unit04
-  118  ls
-  119  python a_0
-  120  python a_01.py 
-  121  python a_03.py 
+ 
   122  pip install crypto
-  123  python a_03.py 
+  
   124  pip install pycrypto
-  125  python a_03.py 
-  126  git pull
-  127  ls
-  128  python d_01.py 
+  
   129  pip install pyopenssl
-  130  python d_01.py 
-  131  pip install pyelliptic
-  132  python d_01.py 
-  133  pip install pyelliptic
-  134  python d_01.py 
-  135  python3 d_01.py 
-  136  python d_01.py 
-  137  pip install pyelliptic==1.5.7
-  138  python d_01.py 
-  139  cd ..
-  140  git pull
-  141  cd unit04
-  142  ls
-  143  python d_02.py 
+   
+pip install https://github.com/mfranciszkiewicz/pyelliptic/archive/1.5.10.tar.gz#egg=pyelliptic
+
   144  pip install ecdsa
-  145  python d_02.py 
-  146  cd ..
-  147  git pull
-  148  cd unit04
-  149  ls
-  150  python e_01.py 
-  151  cd ..
-  152  git pull
-  153  ls -al
-  154  cd unit01/
-  155  ls
-  156  new_lab01.pdf
-  157  ./new_lab01.pdf
-  158  ls -al
-  159  cd ..
-  160  git pull
-  161  cd unit05
-  162  python b_01.py 
-  163  python b_02.py 
-  164  python b_03.py 
-  165  python c_01.py 
-  166  python elliptic
   167  pip install elliptic
-  168  python elliptic
-  169  python c_01.py 
-  170  python finitefield
   171  pip install finitefield
-  172  python c_01.py 
   173  pip install pyfinitefield
   174  pip install finitefield
-  175  python c_01.py 
-  176  nano  c_01.py 
-  177  python c_01.py 
-  178  nano  c_01.py 
-  179  python c_01.py 
-  180  pip install finitefield
-  181  python c_01.py 
-  182  nano  c_01.py 
-  183  python c_01.py 
-  184  pip install finitefield
-  185  nano  c_01.py 
-  186  pip install finitefield
-  187  nano  c_01.py 
-  188  y
-  189  python c_01.py 
-  190  cat c_01.py 
-  191  python pyfinite
   192  pip install pyfinite
   193  pip install finitefield
-  194  rm c_01.py 
-  195  cd ..
-  196  git pull
-  197  cd unit05
-  198  ls
-  199  python c_01.py 
-  200  cd ..
-  201  git pull
-  202  cd unit06
-  203  ls
-  204  cd ..
-  205  cd unit05
-  206  ls
-  207  cd ..
-  208  ls
-  209  cd unit06
-  210  ls
-  211  cd ..
-  212  git pull
-  213  cd unit06
-  214  ls
-  215  python d_01.py
   216  pip install padding
-  217  python d_01.py
-  218  ls
-  219  python b_07.py 
-  220  ls -al
-  221  cd ..
   222  import hashlib
   223  openssl req -new -x509 -days 365 -nodes -out mycert.pem -keyout mycert.pem
   224  ls
